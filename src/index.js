@@ -4,10 +4,15 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+// import Hello from './components/hello';
+
+// const root = <div>
+//   <Hello firstName="nem0" lastName="n0b0dy"/>
+//   <Hello firstName="mr" lastName="n0b0dy"/>
+// </div>;
+
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <App />,
   document.getElementById('root')
 );
 
